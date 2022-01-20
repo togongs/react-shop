@@ -1,0 +1,30 @@
+$mailColor : #ff0000;
+
+.red {
+    color: $mailColor;
+}
+.my-alert {
+    background: #efefef;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+}
+
+.my-alert2 {
+    @extend .my-alert;
+    background: #ffe591;
+}
+
+.my-alert p {
+    margin-bottom: 0;
+}
+
+// div.container {
+//     h4 {
+//         color: burlywood;
+//     }
+//     p {
+//         color: cadetblue;
+//     }
+// }
